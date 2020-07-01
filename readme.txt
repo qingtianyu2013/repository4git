@@ -13,4 +13,4 @@ git rm 删掉 文件，并且git commit
 git clone https://github.com/qingtianyu2013/nick.git  克隆到本地
 git checkout -b dev   加上-b参数表示创建并切换
 git branch命令查看当前分支
-git checkout dev 切换到dev分支
+git checkout dev 切动到dev分支
