@@ -8,3 +8,5 @@ git reflog用来记录你的每一次命令
 git checkout -- file可以丢弃工作区的修改
 git checkout -- file命令中的--很重要，没有--，就变成了“切换到另一个分支”的命令
 git rm 删掉 文件，并且git commit
+要关联一个远程库，使用命令git remote add origin git@server-name:path/repo-name.git；
+关联后，使用命令git push -u origin master第一次推送master分支的所有内容
