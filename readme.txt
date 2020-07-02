@@ -15,5 +15,16 @@ git checkout -b dev   加上-b参数表示创建并切换
 git branch命令查看当前分支
 git checkout dev 切换到dev分支
 git merge dev 命令用于合并指定(dev)分支到当前分支
-git branch -d dav 删除dev分支
+git branch -d dev 删除dev分支
+git log --graph命令可以看到分支合并图
+git stash 可以把当前工作现场“储藏”起来，等以后恢复现场后继续工作
+git stash list 暂存的存储列表
+git stash apply 恢复暂存分支并不删除存储
+git stash drop 删除暂存分支
+git stash pop	恢复并删除=上两条
+git cherry-pick 复制一个特定的提交到当前分支
+git branch -D <name>  丢弃一个没有被合并过的分支
+git remote  查看远程库的信息
+git remote -v
+git tag <tagname>用于新建一个标签
 
