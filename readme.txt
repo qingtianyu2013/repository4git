@@ -27,4 +27,9 @@ git branch -D <name>  丢弃一个没有被合并过的分支
 git remote  查看远程库的信息
 git remote -v
 git tag <tagname>用于新建一个标签
+git tag 可以查看所有标签
+git tag -d <tagname>可以删除一个本地标签
+git push origin :refs/tags/<tagname>可以删除一个远程标签
+git push origin <tagname>可以推送一个本地标签
+nick
 
