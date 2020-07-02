@@ -33,5 +33,5 @@ git push origin :refs/tags/<tagname>可以删除一个远程标签
 git push origin <tagname>可以推送一个本地标签 master
 nick
 
-tianyu
+tianyu  nick
 
